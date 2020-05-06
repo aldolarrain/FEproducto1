@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppProducto1.App"
+             xmlns:infra="clr-namespace:AppProducto1.Infrastructure;Assembly=AppProducto1"
+             xmlns:infra1="clr-namespace:AppProducto1.Infrastructure">
+    <Application.Resources>
+        <ResourceDictionary>
+            <infra1:InstanceLocator x:Key="Locator"></infra1:InstanceLocator>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
